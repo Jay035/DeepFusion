@@ -1,15 +1,15 @@
 import { useState } from 'react'
 import './App.css'
 import { Button } from 'react-bootstrap';
-
+import { Header } from './components/Header';
+import Home from './components/Home';
 
 function App() {
 
   return (
     <div className="App">
-      <Button variant="primary">Primary</Button>{' '}
-      <Button variant="secondary">Secondary</Button>{' '}
-      <Button variant="success">Success</Button>{' '}
+      <Header />
+      <Home />
     </div>
   )
 }
